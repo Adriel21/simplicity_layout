@@ -119,12 +119,14 @@ article{
     display: flex;
     align-items: center;
     justify-content: center;
+    padding: 10px;
 }
 
 article p{
-    font-size: 22px;
+    font-size: clamp(15px, 2vw, 19px);
     font-family: 'Poppins';
     color: white;
+    text-align: center;
 }
 
 /* fim do article */
